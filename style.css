@@ -84,6 +84,7 @@
 	}
 	
 	#menu {	
+		width: 85%;
 		visibility: hidden;
 		box-shadow: 0 0 10px 1px black;
 		margin-top: 6em;
@@ -95,7 +96,7 @@
 	}
 
 	#menu li {
-		font-size: 72px;
+		font-size: 90px;
 	}
 	
 	#menu li {
@@ -103,7 +104,7 @@
 	}
 	
 	#menu li ul li {
-		font-size: 48px;
+		font-size: 72px;
 	}
 	
 	nav ol li span{
