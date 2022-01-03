@@ -1,0 +1,137 @@
+<html lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="author" content="Anita Plichta">
+	<link href="style.css" rel="stylesheet" type="text/css" >
+	<link rel="shortcut icon" href="img/logo.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap" rel="stylesheet">
+	<meta name="keywords" content="portfolio,webmaster,webdesigner,front-end developer,front-end,frontend,strony internetowe,strony www,www,strona internetowa,strona www,grafika,grafiki,fotografia,fotograf">
+	<title>O mnie - Anita Plichta</title>
+</head>
+<body>
+	<nav>
+		<a href="index.html">
+			<div id="logo">
+				<span>
+					Anita Plichta
+				</span>
+			</div>
+		</a>
+		<div id="icon">
+			<img id="on" onclick="on()" src="icon/on.png" alt="Menu ON">
+			<img id="off" onclick="off()" src="icon/off.png" alt="Menu OFF">
+		</div>
+		<ol id="menu">
+			<a href="omnie.html">
+				<li class="show-menu">
+					<span>
+						O mnie
+					</span>
+				</li>
+			</a>
+			<li class="hide-menu">
+				<a href="index.html">
+					<span>
+						Portfolio
+					</span>
+				</a>
+				<ul>
+					<a href="stronywww.html">
+						<li>
+							<span>
+								Strony WWW
+							</span>
+						</li>
+					</a>
+					<a href="grafika.html">
+						<li>
+							<span>
+								Grafika
+							</span>
+						</li>
+					</a>
+					<a href="fotografia.html">
+						<li>
+							<span>
+								Fotografia
+							</span>
+						</li>
+					</a>
+				</ul>
+			</li>
+			<a href="kontakt.html">
+				<li class="show-menu">
+					<span>
+						Kontakt
+					</span>
+				</li>
+			</a>
+			<li id="mail">
+				<span>
+					<a href="mailto:anitaplichta7@wp.pl">anitaplichta7@wp.pl</a>
+				</span>
+			</li>
+		</ol>
+	</nav>
+	<section class="scroll">
+		<header id="header-omnie">
+		</header>
+		<main>
+			<section>
+				<h3>
+					O mnie
+				</h3>
+				<article>
+					<h4>
+						kilka słów...
+					</h4>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec et urna ac risus blandit ornare suscipit nec dolor. Phasellus sodales luctus tincidunt. Aenean sed condimentum est. Maecenas porta a nisi at porta. Suspendisse ac viverra magna. Nullam vitae varius ex, ullamcorper dictum erat. In luctus accumsan tellus, quis congue ligula suscipit ac. Integer tempor metus quis dui mattis, eu scelerisque dui egestas.
+					</p>
+					<img src="img/zyciorys.jpg" alt="Moje zdjecie numer 1">
+				</article>
+				<article>
+					<h4>
+						Wykształcenie i kwalifikacje
+					</h4>
+					<p>
+						Nulla scelerisque ligula et odio interdum feugiat. Nunc euismod vitae lectus et bibendum. Cras vitae iaculis nibh, in ullamcorper dui. Vivamus quis tempor orci. Sed mollis finibus ipsum in iaculis. Nunc quis mauris ac metus viverra convallis quis vel felis. Curabitur nec dui et dui congue tempor in vitae velit. Etiam efficitur ut lorem sit amet elementum. Integer vel tempor arcu, nec pharetra nisl. In tincidunt tincidunt nunc, in rutrum risus dapibus sed. Praesent erat mauris, pellentesque non fringilla nec, laoreet ut magna. Maecenas eget massa dolor.
+					</p>
+					<ul>
+						<li> Donec vel tellus vitae justo porttitor egestas.</li>
+					</ul>
+					<p>
+						Morbi rutrum tortor sit amet felis convallis, vitae pretium augue varius. Phasellus feugiat dui augue, eu tempor sem faucibus non. Praesent et elit ut dolor blandit convallis vel sed justo. Duis ac facilisis dolor. Quisque at leo non mi feugiat vehicula eu sit amet leo. Curabitur lobortis velit at rhoncus feugiat. Pellentesque ac tellus ut dolor varius finibus. Duis interdum eu tellus molestie commodo.
+					</p>
+					<ul>
+						<li>Integer sollicitudin</li>
+						<li>Urna sit amet accumsan aliquet</li>
+						<li>Nisi nibh pellentesque felis</li>
+						<li>Eu fringilla erat urna at ipsum</li>
+					</ul>
+					<img src="img/wyksztalcenie.jpg" alt="Moje zdjecie numer 2">
+				</article>
+			</section>
+		</main>
+		<footer>
+			<span>
+				Projekt i realizacja Anita Plichta
+			</span>
+		</footer>
+	</section>
+	<script>
+		function on() {
+			document.getElementById('menu').style="visibility: visible;transform: scaleY(1);-webkit-transform: scaleY(1)";
+			document.getElementById('on').style="display: none";
+			document.getElementById('off').style="display: block";
+		}
+		
+		function off() {
+			document.getElementById('menu').style="visibility: hidden";
+			document.getElementById('on').style="display: block";
+			document.getElementById('off').style="display: none";
+		}
+	</script>
+</body>
+</html>

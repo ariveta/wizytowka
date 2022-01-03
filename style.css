@@ -1,0 +1,616 @@
+@media only screen and (max-width: 999px) {
+	header {
+		margin-top: 0;
+		height: 60%;
+		background-size: cover;
+	}
+	
+	#header-home {
+		margin-top: 0;
+		height: 40%;
+		background-size: cover;
+	}
+
+	h1 {
+		padding: 15% 0 0 0;
+		font-size: 72px;
+	}
+
+	h2 {
+		font-size: 72px;
+	}
+	
+	#nav-home {
+		height: 55%;
+	}
+	
+	#nav-home span {
+		font-size: 48px;
+		padding: 3%;
+	}
+
+	#omnie {
+		left: 6%;
+		width: 25%;
+	}
+	
+	#container {
+		left: 12%;
+		width: 25%;
+	}
+	
+	#kontakt{
+		left: 19%;
+		width: 25%;
+	}
+	
+	nav {
+		height: 50%;
+	}
+	
+	#logo {
+		width: 85%;
+		height: 20%;
+		background-color: white;
+		border-bottom: 3px solid #666666; 
+	}
+	
+	#logo span {
+		position: relative;
+		left: 10%;
+		top: 5%;
+	}
+	
+	#icon {
+		float: left;
+		width: 15%;
+		background-color: white;
+		border-bottom: 3px solid #666666; 
+	}
+	
+	#icon img {
+		float: right;
+		height: 20%;
+	}
+	
+	#on {
+		display: block;
+		cursor: pointer;
+	}
+	
+	#off {
+		display: none;
+		cursor: pointer;
+	}
+	
+	#menu {	
+		visibility: hidden;
+		box-shadow: 0 0 10px 1px black;
+		margin-top: 6em;
+		 transform: scaleY(0);
+		 -webkit-transform: scaleY(0);
+		 transform-origin: 50% 0;
+		 -webkit-transform-origin: 50% 0;
+		 transition: 500ms;
+	}
+
+	#menu li {
+		font-size: 48px;
+	}
+	
+	#menu li {
+		padding: 2% 0 0 0;
+	}
+	
+	#menu li ul li {
+		font-size: 36px;
+	}
+	
+	nav ol li span{
+		position: relative;
+		top: -0.1em;
+		font-family: 'Amatic SC', cursive;
+	}
+
+	#mail {
+		display: none;
+	}
+	
+	h3 {
+		font-size: 72px;
+	}
+
+	h4 {
+		font-size: 36px;
+	}
+	
+	p, table {
+		font-size: 28px;
+	}
+	
+	article ul {
+		font-size: 28px;
+	}
+	
+	footer {
+		height: 5%;
+	}
+	
+	footer span {
+		top: 30%;
+		font-size: 20px;
+	}
+		
+	article img {
+		width: 80%;
+		margin-left: 10%;
+	}
+
+	.img-container {
+		width: 90%;
+		height: 40%;
+		margin-left: 5%;
+	}
+	
+	.img-container:not(:first-child) {
+		margin-top: 5%;
+	}
+
+	iframe {
+		width: 99%;
+		height: 600px;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	header {
+		height: 30%;
+		background-size: cover;
+	}
+	
+	h1{
+		padding: 5% 0 0 0;
+		font-size: 80px;
+	}
+
+	h2 {
+		font-size: 80px;
+	}
+	
+	#nav-home {
+		height: 57%;
+	}
+	
+	#nav-home span {
+		font-size: 72px;
+		padding: 2%;
+	}
+	
+	#omnie {
+		left: 10%;
+		width: 20%;
+	}
+	
+	#container {
+		left: 20%;
+		width: 20%;
+	}
+	
+	#kontakt{
+		left: 30%;
+		width: 20%;
+	}
+
+	nav {
+		height: 8%;
+		background-color: white;
+		box-shadow: 0 0 10px 1px black;
+	}
+	
+	#logo {
+		width: 40%;
+		height: 100%;
+	}
+	
+	#icon {
+		display: none;
+	}
+	
+	nav ol li {
+		float: left;
+		width: 15%;
+		height: 100%;
+		font-size: 36px;
+	}
+	
+	ol > li:hover > ul {
+		visibility: visible;
+		transform: scaleY(1); 
+		-webkit-transform: scaleY(1);
+	}
+
+	ol > li > ul {
+		visibility: hidden;
+		margin-top: 10%;
+		 transform: scaleY(0);
+		 -webkit-transform: scaleY(0);
+		 transform-origin: 50% 0;
+		 -webkit-transform-origin: 50% 0;
+		 transition: 500ms;
+	}
+
+	ol > li > ul > a > li {
+		clear: both;
+		width: 100%;
+		box-shadow: 0 0 20px 0.5px grey;
+	}
+	
+	
+	nav ol li span{
+		top: 20%;
+	}
+		
+	#mail {
+		width: 15%;
+		height: 100%;
+		font-size: 28px;
+	}
+	
+	h3 {
+		font-size: 48px;
+	}
+	
+	h4 {
+		font-size: 36px;
+	}
+	
+	p, table {
+		font-size: 26px;
+	}
+	
+	article ul {
+		font-size: 26px;
+	}
+	
+	footer {
+		height: 3%;
+	}
+	
+	footer span {
+		top: 20%;
+		font-size: 18px;
+	}
+	
+	article img {
+		width: 50%;
+		margin-left: 25%;
+	}
+		
+	.img-container {
+		top: 10%;
+		width: 40%;
+		height: 60%;
+		margin-left: 6.5%;
+		margin-bottom: 2%;
+	}
+
+	iframe {
+		margin-left: 25%;
+		width: 50%;
+		height: 500px;
+	}
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	color: black;
+	text-decoration: none;
+}
+
+content {
+	width: 100%;
+	overflow: auto;
+}
+
+header {
+	width: 100%;
+	background-image: url('banner/baner.jpg');
+	background-position: center center;
+	box-shadow: 0 0 10px 1px black;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+	text-shadow:0 0 6px white;
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Indie Flower', cursive;
+	text-shadow:0 0 6px white;
+}
+
+#nav-home div {
+	position: relative;
+	text-align: center;
+    background-size: cover;
+	transition-duration: 3s;
+    margin: 0 auto;
+    display: block;
+}
+
+.navigation:hover {
+	transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: 0;
+}
+
+#nav-home span {
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+	font-family: 'Amatic SC', cursive;
+	color: black;
+	background: rgba(255,255,255,0.4);
+}
+
+#omnie {
+	float: left;
+	top: 10%;
+	height: 80%;
+	background-image: url('img/omnie.jpg');
+	background-position: center center;
+	box-shadow: 0 0 10px 1px black;
+}
+
+#container {
+	float: left;
+	top: 10%;
+	height: 80%;
+}
+
+#stronywww {
+	float: bottom;
+	top: 0;
+	height: 26%;
+	width: 100%;
+	background-image: url('img/stronywww.jpg');
+	background-position: center center;
+	box-shadow: 0 0 10px 1px black;
+}
+
+#grafika {
+	float: bottom;
+	top: 11%;
+	height: 26%;
+	width: 100%;
+	background-image: url('img/grafika.jpg');
+	background-position: center center;
+	box-shadow: 0 0 10px 1px black;
+}
+
+#fotografia {
+	float: bottom;
+	top: 22%;
+	height: 26%;
+	width: 100%;
+	background-image: url('img/fotografia.jpg');
+	background-position: center center;
+	box-shadow: 0 0 10px 1px black;
+}
+
+#kontakt {
+	float: left;
+	top: 10%;
+	height: 80%;
+	background-image: url('img/kontakt.jpg');
+	background-position: center center;
+	box-shadow: 0 0 10px 1px black;
+}
+
+nav {
+	z-index: 1;
+	display: block;
+	width: 100%;
+	position: fixed;
+	right: 0;
+	top: 0%;
+}
+
+nav ol {
+	list-style: none;
+}
+
+nav ul {
+	list-style: none;
+}
+
+#logo {
+	float: left;
+	position: realtive;
+	top: 15%;
+	text-align: center;
+	font-size: 72px;
+	font-family: 'Indie Flower', cursive;
+	color: black;
+}
+
+nav ol li {
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+
+nav ol li:hover {
+	-webkit-transition: all 0.6s;
+	background-color: lightgrey;
+}
+
+nav ol li ul li:hover {
+	-webkit-transition: all 0.6s;
+	background-color: silver;
+}
+
+nav ol li span{
+	position: relative;
+	font-family: 'Amatic SC', cursive;
+}
+	  
+#mail {
+	float: left;
+	text-align: center;
+	color: black;
+	background-color: white;
+}
+
+#mail span{
+	position: relative;
+	top: 30%;
+	font-family: 'Indie Flower', cursive;
+}
+
+#mail a:link {
+	color: black;
+}
+
+.scroll {
+	overflow: auto;
+}
+
+#header-home {
+	height: 40%;
+}
+
+#header-omnie {
+	background-image: url('banner/omnie.jpg');
+	background-position: center center;
+}
+
+#header-stronywww {
+	background-image: url('banner/stronywww.jpg');
+	background-position: center center;
+}
+
+#header-grafika {
+	background-image: url('banner/grafika.jpg');
+	background-position: center center;
+}
+
+#header-fotografia {
+	background-image: url('banner/fotografia.jpg');
+	background-position: center center;
+}
+
+#header-kontakt {
+	background-image: url('banner/kontakt.jpg');
+	background-position: center center;
+}
+
+main {
+	width: 100%;
+	height: auto;
+}
+
+h3 {
+    margin-left: 10%;
+	margin-top: 1%;
+	font-family: 'Amatic SC', cursive;
+}
+
+article {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+h4 {
+    margin-left: 10%;
+}
+
+p {
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 1%;
+}
+
+a:link {
+    color: red;
+}
+
+a:visited {
+    color: red;
+}
+
+a:hover {
+    color: orange;
+}
+
+a:active {
+    color: red;
+}
+
+footer {
+	width: 100%;
+	text-align: center;
+	background-color: #c2c2c2;
+	box-shadow: 0 0 10px 1px black;
+}
+
+footer span{
+	position: relative;
+	color: #666666;
+	position: relative;
+}
+
+article img {
+	margin-top: 1%;
+	border: 2px solid #c2c2c2;
+}
+
+article ul {
+	list-style-type: square;
+	width: 80%;
+	margin-left: 10%;
+}
+
+.img-container {
+	display: inline-block;
+    overflow: hidden;
+	border: 2px solid #c2c2c2;
+}
+.img-container img {
+	width: 100%;
+	height: 100%;
+    transition-duration: 3s;
+    margin: 0 auto;
+}
+.img-container img:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    z-index: auto;
+}
+
+table {
+	margin: auto;
+}
+
+th {
+	text-align: right;
+}
+
+td {
+	padding: .2em .8em; 
+}
+
+td a:link {
+	color: black;
+}
+
+iframe {
+	border: 2px solid #c2c2c2;
+}

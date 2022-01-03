@@ -1,0 +1,138 @@
+<html lang="pl">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	<meta name="author" content="Anita Plichta">
+	<link href="style.css" rel="stylesheet" type="text/css" >
+	<link rel="shortcut icon" href="img/logo.png">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC&family=Indie+Flower&display=swap" rel="stylesheet">
+	<meta name="keywords" content="portfolio,webmaster,webdesigner,front-end developer,front-end,frontend,strony internetowe,strony www,www,strona internetowa,strona www,grafika,grafiki,fotografia,fotograf">
+	<title>Kontakt - Anita Plichta</title>
+</head>
+<body>
+	<nav>
+		<a href="index.html">
+			<div id="logo">
+				<span>
+					Anita Plichta
+				</span>
+			</div>
+		</a>
+		<div id="icon">
+			<img id="on" onclick="on()" src="icon/on.png" alt="Menu ON">
+			<img id="off" onclick="off()" src="icon/off.png" alt="Menu OFF">
+		</div>
+		<ol id="menu">
+			<a href="omnie.html">
+				<li class="show-menu">
+					<span>
+						O mnie
+					</span>
+				</li>
+			</a>
+			<li class="hide-menu">
+				<a href="index.html">
+					<span>
+						Portfolio
+					</span>
+				</a>
+				<ul>
+					<a href="stronywww.html">
+						<li>
+							<span>
+								Strony WWW
+							</span>
+						</li>
+					</a>
+					<a href="grafika.html">
+						<li>
+							<span>
+								Grafika
+							</span>
+						</li>
+					</a>
+					<a href="fotografia.html">
+						<li>
+							<span>
+								Fotografia
+							</span>
+						</li>
+					</a>
+				</ul>
+			</li>
+			<a href="kontakt.html">
+				<li class="show-menu">
+					<span>
+						Kontakt
+					</span>
+				</li>
+			</a>
+			<li id="mail">
+				<span>
+					<a href="mailto:anitaplichta7@wp.pl">anitaplichta7@wp.pl</a>
+				</span>
+			</li>
+		</ol>
+	</nav>
+	<section class="scroll">
+		<header id="header-kontakt">
+		</header>
+		<main>
+			<section>
+				<h3>
+					Kontakt
+				</h3>
+				<article>
+					<table>
+						<tr>
+							<th>
+								<img src="icon/person.png" alt="Ikona osoby">
+							</th>
+							<td>Anita Plichta</td>
+						<tr>
+							<th>
+								<img src="icon/location.png" alt="Ikona lokalizacji">
+							</th>
+							<td>Gdańsk / Kartuzy</td>
+						</tr>
+							<th>
+								<img src="icon/phone.png" alt="Ikona telefonu">
+							</th>
+							<td><i>[hidden information]</i></td>
+						</tr>
+						<tr>
+							<th>
+								<img src="icon/email.png" alt="Ikona wiadomości">
+							</th>
+							<td>
+								<a href="mailto:anitaplichta7@wp.pl">anitaplichta7@wp.pl</a>
+							</td>
+						</tr>
+					</table>
+				</article>
+				<article>
+					<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18609.332690126095!2d18.17857539769753!3d54.33636370356687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd9a7cf97459e7%3A0x672209d507f6e0b!2sKartuzy!5e0!3m2!1spl!2spl!4v1640007857478!5m2!1spl!2spl" allowfullscreen="" loading="lazy"></iframe>
+				</article>
+			</section>
+		</main>
+		<footer>
+			<span>
+				Projekt i realizacja Anita Plichta
+			</span>
+		</footer>
+	</section>
+	<script>
+		function on() {
+			document.getElementById('menu').style="visibility: visible;transform: scaleY(1);-webkit-transform: scaleY(1)";
+			document.getElementById('on').style="display: none";
+			document.getElementById('off').style="display: block";
+		}
+		
+		function off() {
+			document.getElementById('menu').style="visibility: hidden";
+			document.getElementById('on').style="display: block";
+			document.getElementById('off').style="display: none";
+		}
+	</script>
+</body>
+</html>
