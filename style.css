@@ -85,21 +85,20 @@
 	
 	#menu {	
 		width: 85%;
+		height: 200%;
 		visibility: hidden;
 		box-shadow: 0 0 10px 1px black;
-		margin-top: 6em;
+		margin-top: 0m;
 		 transform: scaleY(0);
 		 -webkit-transform: scaleY(0);
 		 transform-origin: 50% 0;
 		 -webkit-transform-origin: 50% 0;
 		 transition: 500ms;
+		 background-color: white;
 	}
 
 	#menu li {
 		font-size: 90px;
-	}
-	
-	#menu li {
 		padding: 2% 0 0 0;
 	}
 	
@@ -107,7 +106,7 @@
 		font-size: 72px;
 	}
 	
-	nav ol li span{
+	nav ol li span {
 		position: relative;
 		top: -0.1em;
 		font-family: 'Amatic SC', cursive;
