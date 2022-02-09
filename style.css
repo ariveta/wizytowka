@@ -578,6 +578,16 @@ article ul {
 	margin-left: 10%;
 }
 
+.photos {
+	transition-duration: 1s;
+}
+
+.photos:hover {
+    -webkit-filter: grayscale(1);
+	filter: grayscale(1);
+    z-index: auto;
+}
+
 .img-container {
 	display: inline-block;
     overflow: hidden;
